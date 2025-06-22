@@ -1,0 +1,154 @@
+{
+    "nodes": [
+      {
+        "id": "Organization_1",
+        "name": "Bangladesh Nationalist Party (BNP)",
+        "type": "organization",
+        "attributes": {
+          "role": "Major political party in Bangladesh"
+        }
+      },
+      {
+        "id": "Person_1",
+        "name": "Tarique Rahman",
+        "type": "person",
+        "attributes": {
+          "role": "Acting Chairman of BNP"
+        }
+      },
+      {
+        "id": "Event_1",
+        "name": "Anti-authoritarian mass uprising",
+        "type": "event",
+        "attributes": {
+          "description": "Led to the transition to an interim government"
+        }
+      },
+      {
+        "id": "Document_1",
+        "name": "Vision 2030",
+        "type": "document",
+        "attributes": {
+          "description": "Comprehensive reform agenda covering governance, decentralisation, electoral transparency, and economic restructuring"
+        }
+      },
+      {
+        "id": "Proposal_1",
+        "name": "31-point roadmap",
+        "type": "proposal",
+        "attributes": {
+          "description": "Reform proposals by BNP"
+        }
+      },
+      {
+        "id": "Person_2",
+        "name": "Daron Acemoglu",
+        "type": "person",
+        "attributes": {
+          "role": "Economist and co-author of 'Why Nations Fail'"
+        }
+      },
+      {
+        "id": "Person_3",
+        "name": "James A. Robinson",
+        "type": "person",
+        "attributes": {
+          "role": "Political scientist and co-author of 'Why Nations Fail'"
+        }
+      },
+      {
+        "id": "Person_4",
+        "name": "Vernon Bogdanor",
+        "type": "person",
+        "attributes": {
+          "role": "Constitutional scholar"
+        }
+      },
+      {
+        "id": "Person_5",
+        "name": "Adam Przeworski",
+        "type": "person",
+        "attributes": {
+          "role": "Political theorist"
+        }
+      },
+      {
+        "id": "Person_6",
+        "name": "Larry Diamond",
+        "type": "person",
+        "attributes": {
+          "role": "Political scientist"
+        }
+      },
+      {
+        "id": "Event_2",
+        "name": "Proposed reconfiguration of Article 70",
+        "type": "event",
+        "attributes": {
+          "description": "Amendment to allow MPs greater autonomy in voting"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "Organization_1",
+        "target": "Document_1",
+        "type": "PROPOSED",
+        "description": "BNP unveiled 'Vision 2030' in 2016"
+      },
+      {
+        "source": "Organization_1",
+        "target": "Event_1",
+        "type": "SUPPORTED",
+        "description": "Extended support to the anti-authoritarian mass uprising"
+      },
+      {
+        "source": "Organization_1",
+        "target": "Proposal_1",
+        "type": "ADVOCATED",
+        "description": "Invested in building consensus around its 31-point roadmap"
+      },
+      {
+        "source": "Person_1",
+        "target": "Organization_1",
+        "type": "LEADS",
+        "description": "Acting Chairman of BNP"
+      },
+      {
+        "source": "Person_1",
+        "target": "Event_2",
+        "type": "SPOKE_ABOUT",
+        "description": "Emphasized BNP's stance on reform"
+      },
+      {
+        "source": "Organization_1",
+        "target": "Event_2",
+        "type": "SUPPORTED",
+        "description": "Voiced support for amending Article 70"
+      },
+      {
+        "source": "Person_2",
+        "target": "Person_3",
+        "type": "COLLABORATED_WITH",
+        "description": "Co-authored 'Why Nations Fail'"
+      },
+      {
+        "source": "Person_4",
+        "target": "Organization_1",
+        "type": "CRITICIZED",
+        "description": "Observed the risks of undermining democratic accountability"
+      },
+      {
+        "source": "Person_5",
+        "target": "Organization_1",
+        "type": "SUPPORTED",
+        "description": "Highlighted the importance of democratic processes"
+      },
+      {
+        "source": "Person_6",
+        "target": "Organization_1",
+        "type": "ADVISED",
+        "description": "Cautioned about the failure of democratic reforms"
+      }
+    ]
+  }
