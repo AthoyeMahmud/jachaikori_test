@@ -1,0 +1,9 @@
+streamlit
+requests
+beautifulsoup4
+pandas
+networkx
+pyvis
+google-generativeai
+openai
+python-dotenv
